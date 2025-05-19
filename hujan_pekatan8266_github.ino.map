@@ -16485,8 +16485,8 @@ END GROUP
  *(.dtors)
                 0x000000004020e41c                . = ALIGN (0x4)
                 0x000000004020e41c                _bss_table_start = ABSOLUTE (.)
-                0x000000004020e41c        0x4 LONG 0x3ffe9128 _bss_start
-                0x000000004020e420        0x4 LONG 0x3ffef998 _bss_end
+                0x000000004020e41c        0x4 LONG 0x3ffe9140 _bss_start
+                0x000000004020e420        0x4 LONG 0x3ffef9a8 _bss_end
                 0x000000004020e424                _bss_table_end = ABSOLUTE (.)
  *libgcc.a:unwind-dw2.o(.literal .text .rodata .literal.* .text.* .rodata.*)
  *libgcc.a:unwind-dw2-fde.o(.literal .text .rodata .literal.* .text.* .rodata.*)
@@ -24956,7 +24956,7 @@ END GROUP
                 0x0000000040107049                _text_end = ABSOLUTE (.)
                 0x0000000040107049                _etext = .
 
-.rodata         0x000000003ffe86b0      0xa78
+.rodata         0x000000003ffe86b0      0xa90
                 0x000000003ffe86b0                _rodata_start = ABSOLUTE (.)
  *(.sdk.version)
  .sdk.version   0x000000003ffe86b0       0x13 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
@@ -24993,280 +24993,280 @@ END GROUP
                 0x000000003ffe891a      0x106 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
                                         0x107 (size before relaxing)
  .rodata._GLOBAL__sub_I_ssid.str1.1
-                0x000000003ffe8a20        0xb C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                                          0xd (size before relaxing)
+                0x000000003ffe8a20        0xe C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                                         0x10 (size before relaxing)
  .rodata._Z15uploadDataHujanv$part$0.str1.1
-                0x000000003ffe8a2b       0x86 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffe8a2e       0x86 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
  .rodata._Z15kirimWakturesetv$part$0.str1.1
-                0x000000003ffe8ab1       0xe3 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffe8ab4       0xe3 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
  .rodata._Z15kirimWakturesetv.str1.1
-                0x000000003ffe8b94       0x2e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffe8b97       0x2e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
  .rodata.setup.str1.1
-                0x000000003ffe8bc2       0x1b C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffe8bc5       0x1b C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
                                          0x1d (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe8bdd       0xb1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
- *fill*         0x000000003ffe8c8e        0x2 
+                0x000000003ffe8be0       0xc7 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+ *fill*         0x000000003ffe8ca7        0x1 
  .rodata._ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
-                0x000000003ffe8c90        0x8 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
-                0x000000003ffe8c90                _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+                0x000000003ffe8ca8        0x8 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+                0x000000003ffe8ca8                _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
  .rodata._ZN19ESP8266WiFiSTAClass10macAddressEv.str1.1
-                0x000000003ffe8c98       0x1e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x000000003ffe8cb0       0x1e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
  .rodata.CSWTCH$68
-                0x000000003ffe8cb6        0x6 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x000000003ffe8cce        0x6 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
  .rodata._ZN10HTTPClient9addHeaderERK6StringS2_bb.str1.1
-                0x000000003ffe8cbc        0x3 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffe8cd4        0x3 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
                                           0x6 (size before relaxing)
  .rodata._ZN10HTTPClient13beginInternalERK6StringPKc.str1.1
-                0x000000003ffe8cbf        0xb C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffe8cd7        0xb C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
  .rodata._ZN10HTTPClient11sendRequestEPKcPKhj.str1.1
-                0x000000003ffe8cca        0x9 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffe8ce2        0x9 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
  .rodata._ZN10HTTPClient4POSTEPKhj.str1.1
-                0x000000003ffe8cd3        0x5 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffe8ceb        0x5 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
  .rodata.CSWTCH$186
-                0x000000003ffe8cd8        0x5 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffe8cf0        0x5 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
  .rodata._ZN17ESP8266HTTPUpdate12handleUpdateER10HTTPClientRK6Stringb.str1.1
-                0x000000003ffe8cdd        0x6 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266httpUpdate\ESP8266httpUpdate.a(ESP8266httpUpdate.cpp.o)
- *fill*         0x000000003ffe8ce3        0x1 
+                0x000000003ffe8cf5        0x6 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266httpUpdate\ESP8266httpUpdate.a(ESP8266httpUpdate.cpp.o)
+ *fill*         0x000000003ffe8cfb        0x1 
  .rodata.CSWTCH$125
-                0x000000003ffe8ce4       0x28 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+                0x000000003ffe8cfc       0x28 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
  .rodata._ZNK10MD5Builder8getCharsEPc.str1.1
-                0x000000003ffe8d0c        0x5 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(MD5Builder.cpp.o)
+                0x000000003ffe8d24        0x5 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(MD5Builder.cpp.o)
  .rodata._ZN5Print7printlnEv.str1.1
-                0x000000003ffe8d11        0x3 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Print.cpp.o)
+                0x000000003ffe8d29        0x3 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Print.cpp.o)
  .rodata.stack_thunk_fatal_smashing.str1.1
-                0x000000003ffe8d11       0x2b C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
+                0x000000003ffe8d29       0x2b C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
  .rodata.dtostrf.str1.1
-                0x000000003ffe8d3c        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_noniso.cpp.o)
+                0x000000003ffe8d54        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_noniso.cpp.o)
  .rodata.CSWTCH$10
-                0x000000003ffe8d44       0x10 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_flash_quirks.cpp.o)
+                0x000000003ffe8d5c       0x10 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_flash_quirks.cpp.o)
  .rodata.str1.4
-                0x000000003ffe8d54        0xb C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
- *fill*         0x000000003ffe8d5f        0x1 
+                0x000000003ffe8d6c        0xb C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
+ *fill*         0x000000003ffe8d77        0x1 
  .rodata.str1.4
-                0x000000003ffe8d60        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
+                0x000000003ffe8d78        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
                                           0xc (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8d64        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
+                0x000000003ffe8d7c        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
                                          0x10 (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8d6c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
+                0x000000003ffe8d84        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
                                           0xc (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8d70        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
+                0x000000003ffe8d88        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
                                           0xc (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8d74        0x3 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
+                0x000000003ffe8d8c        0x3 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
                                           0x8 (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8d77        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
+                0x000000003ffe8d8f        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
  .rodata.str1.4
-                0x000000003ffe8d77        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_ie_vendor.o)
+                0x000000003ffe8d8f        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_ie_vendor.o)
  .rodata.str1.1
-                0x000000003ffe8d77       0x41 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8d8f       0x41 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.dhcp_cleanup.str1.1
-                0x000000003ffe8db8       0x13 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8dd0       0x13 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.dhcp_release.str1.1
-                0x000000003ffe8dcb       0x13 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8de3       0x13 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.CSWTCH$34
-                0x000000003ffe8dde       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8df6       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.CSWTCH$31
-                0x000000003ffe8dee       0x11 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8e06       0x11 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.ethbroadcast
-                0x000000003ffe8dff        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x000000003ffe8dff                ethbroadcast
+                0x000000003ffe8e17        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffe8e17                ethbroadcast
  .rodata.str1.1
-                0x000000003ffe8e05       0x6d C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
+                0x000000003ffe8e1d       0x6d C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
  .rodata.ethzero
-                0x000000003ffe8e72        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
-                0x000000003ffe8e72                ethzero
+                0x000000003ffe8e8a        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
+                0x000000003ffe8e8a                ethzero
  .rodata.ethbroadcast_LWIP2
-                0x000000003ffe8e78        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
-                0x000000003ffe8e78                ethbroadcast_LWIP2
+                0x000000003ffe8e90        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
+                0x000000003ffe8e90                ethbroadcast_LWIP2
  .rodata.dns_gethostbyname_addrtype.str1.1
-                0x000000003ffe8e7e        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- *fill*         0x000000003ffe8e85        0x3 
+                0x000000003ffe8e96        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ *fill*         0x000000003ffe8e9d        0x3 
  .rodata.dns_mquery_v4group
-                0x000000003ffe8e88        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
-                0x000000003ffe8e88                dns_mquery_v4group
+                0x000000003ffe8ea0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x000000003ffe8ea0                dns_mquery_v4group
  .rodata.memp_pools
-                0x000000003ffe8e8c       0x2c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8e8c                memp_pools
+                0x000000003ffe8ea4       0x2c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ea4                memp_pools
  .rodata.memp_PBUF_POOL
-                0x000000003ffe8eb8        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8eb8                memp_PBUF_POOL
+                0x000000003ffe8ed0        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ed0                memp_PBUF_POOL
  .rodata.memp_PBUF
-                0x000000003ffe8eba        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8eba                memp_PBUF
+                0x000000003ffe8ed2        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ed2                memp_PBUF
  .rodata.memp_SYS_TIMEOUT
-                0x000000003ffe8ebc        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ebc                memp_SYS_TIMEOUT
+                0x000000003ffe8ed4        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ed4                memp_SYS_TIMEOUT
  .rodata.memp_IGMP_GROUP
-                0x000000003ffe8ebe        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ebe                memp_IGMP_GROUP
+                0x000000003ffe8ed6        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ed6                memp_IGMP_GROUP
  .rodata.memp_ARP_QUEUE
-                0x000000003ffe8ec0        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ec0                memp_ARP_QUEUE
+                0x000000003ffe8ed8        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ed8                memp_ARP_QUEUE
  .rodata.memp_REASSDATA
-                0x000000003ffe8ec2        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ec2                memp_REASSDATA
+                0x000000003ffe8eda        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8eda                memp_REASSDATA
  .rodata.memp_TCP_SEG
-                0x000000003ffe8ec4        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ec4                memp_TCP_SEG
+                0x000000003ffe8edc        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8edc                memp_TCP_SEG
  .rodata.memp_TCP_PCB_LISTEN
-                0x000000003ffe8ec6        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ec6                memp_TCP_PCB_LISTEN
+                0x000000003ffe8ede        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ede                memp_TCP_PCB_LISTEN
  .rodata.memp_TCP_PCB
-                0x000000003ffe8ec8        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ec8                memp_TCP_PCB
+                0x000000003ffe8ee0        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ee0                memp_TCP_PCB
  .rodata.memp_UDP_PCB
-                0x000000003ffe8eca        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8eca                memp_UDP_PCB
+                0x000000003ffe8ee2        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ee2                memp_UDP_PCB
  .rodata.memp_RAW_PCB
-                0x000000003ffe8ecc        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x000000003ffe8ecc                memp_RAW_PCB
- *fill*         0x000000003ffe8ece        0x2 
+                0x000000003ffe8ee4        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x000000003ffe8ee4                memp_RAW_PCB
+ *fill*         0x000000003ffe8ee6        0x2 
  .rodata.tcp_pcb_lists
-                0x000000003ffe8ed0       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffe8ed0                tcp_pcb_lists
+                0x000000003ffe8ee8       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffe8ee8                tcp_pcb_lists
  .rodata.tcp_persist_backoff
-                0x000000003ffe8ee0        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffe8ef8        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .rodata.tcp_backoff
-                0x000000003ffe8ee7        0xd C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffe8eff        0xd C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .rodata.dhcp_discover_request_options
-                0x000000003ffe8ef4        0x5 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
- *fill*         0x000000003ffe8ef9        0x3 
+                0x000000003ffe8f0c        0x5 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+ *fill*         0x000000003ffe8f11        0x3 
  .rodata.ip_addr_broadcast
-                0x000000003ffe8efc        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
-                0x000000003ffe8efc                ip_addr_broadcast
+                0x000000003ffe8f14        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
+                0x000000003ffe8f14                ip_addr_broadcast
  .rodata.ip_addr_any
-                0x000000003ffe8f00        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
-                0x000000003ffe8f00                ip_addr_any
+                0x000000003ffe8f18        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
+                0x000000003ffe8f18                ip_addr_any
  .rodata.memp_PPP_PCB
-                0x000000003ffe8f04        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ppp.o)
-                0x000000003ffe8f04                memp_PPP_PCB
+                0x000000003ffe8f1c        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ppp.o)
+                0x000000003ffe8f1c                memp_PPP_PCB
  .rodata.memp_PPPOS_PCB
-                0x000000003ffe8f06        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(pppos.o)
-                0x000000003ffe8f06                memp_PPPOS_PCB
+                0x000000003ffe8f1e        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(pppos.o)
+                0x000000003ffe8f1e                memp_PPPOS_PCB
  .rodata.str1.4
-                0x000000003ffe8f08        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
+                0x000000003ffe8f20        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
                                           0xc (size before relaxing)
  .rodata.str1.4
-                0x000000003ffe8f0c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
+                0x000000003ffe8f24        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
                                           0xc (size before relaxing)
  .rodata.CSWTCH$3
-                0x000000003ffe8f10        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ecdsa_i15_sign_raw.o)
+                0x000000003ffe8f28        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ecdsa_i15_sign_raw.o)
  .rodata.CSWTCH$3
-                0x000000003ffe8f1c        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ecdsa_i15_vrfy_raw.o)
+                0x000000003ffe8f34        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ecdsa_i15_vrfy_raw.o)
  .rodata.pad1$0
-                0x000000003ffe8f28        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(rsa_pkcs1_sig_unpad.o)
- *fill*         0x000000003ffe8f32        0x2 
+                0x000000003ffe8f40        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(rsa_pkcs1_sig_unpad.o)
+ *fill*         0x000000003ffe8f4a        0x2 
  .rodata.compute_key_block.str1.4
-                0x000000003ffe8f34        0xe C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_engine.o)
- *fill*         0x000000003ffe8f42        0x2 
+                0x000000003ffe8f4c        0xe C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_engine.o)
+ *fill*         0x000000003ffe8f5a        0x2 
  .rodata.br_ssl_engine_compute_master.str1.4
-                0x000000003ffe8f44        0xe C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_engine.o)
- *fill*         0x000000003ffe8f52        0x2 
+                0x000000003ffe8f5c        0xe C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_engine.o)
+ *fill*         0x000000003ffe8f6a        0x2 
  .rodata.pref$0
-                0x000000003ffe8f54        0x5 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hashes.o)
+                0x000000003ffe8f6c        0x5 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hashes.o)
  .rodata.br_ssl_hs_client_run.str1.1
-                0x000000003ffe8f59       0x20 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hs_client.o)
- *fill*         0x000000003ffe8f79        0x3 
+                0x000000003ffe8f71       0x20 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hs_client.o)
+ *fill*         0x000000003ffe8f91        0x3 
  .rodata.str1.4
-                0x000000003ffe8f7c       0x37 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hs_client.o)
- *fill*         0x000000003ffe8fb3        0x1 
+                0x000000003ffe8f94       0x37 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_hs_client.o)
+ *fill*         0x000000003ffe8fcb        0x1 
  .rodata.HASH_OID_SHA512
-                0x000000003ffe8fb4        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
-                0x000000003ffe8fb4                HASH_OID_SHA512
- *fill*         0x000000003ffe8fbe        0x2 
- .rodata.HASH_OID_SHA384
-                0x000000003ffe8fc0        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
-                0x000000003ffe8fc0                HASH_OID_SHA384
- *fill*         0x000000003ffe8fca        0x2 
- .rodata.HASH_OID_SHA256
                 0x000000003ffe8fcc        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
-                0x000000003ffe8fcc                HASH_OID_SHA256
+                0x000000003ffe8fcc                HASH_OID_SHA512
  *fill*         0x000000003ffe8fd6        0x2 
- .rodata.HASH_OID_SHA224
+ .rodata.HASH_OID_SHA384
                 0x000000003ffe8fd8        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
-                0x000000003ffe8fd8                HASH_OID_SHA224
+                0x000000003ffe8fd8                HASH_OID_SHA384
  *fill*         0x000000003ffe8fe2        0x2 
+ .rodata.HASH_OID_SHA256
+                0x000000003ffe8fe4        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
+                0x000000003ffe8fe4                HASH_OID_SHA256
+ *fill*         0x000000003ffe8fee        0x2 
+ .rodata.HASH_OID_SHA224
+                0x000000003ffe8ff0        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
+                0x000000003ffe8ff0                HASH_OID_SHA224
+ *fill*         0x000000003ffe8ffa        0x2 
  .rodata.HASH_OID_SHA1
-                0x000000003ffe8fe4        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
-                0x000000003ffe8fe4                HASH_OID_SHA1
- *fill*         0x000000003ffe8fea        0x2 
+                0x000000003ffe8ffc        0x6 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ssl_scert_single_rsa.o)
+                0x000000003ffe8ffc                HASH_OID_SHA1
+ *fill*         0x000000003ffe9002        0x2 
  .rodata.CSWTCH$12
-                0x000000003ffe8fec        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ec_prime_i15.o)
- .rodata.pp$0   0x000000003ffe8ff8       0x3c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ec_prime_i15.o)
+                0x000000003ffe9004        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ec_prime_i15.o)
+ .rodata.pp$0   0x000000003ffe9010       0x3c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(ec_prime_i15.o)
  .rodata.br_prng_seeder_system.str1.4
-                0x000000003ffe9034        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(sysrng.o)
- .rodata.Rcon   0x000000003ffe903c        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(aes_ct.o)
+                0x000000003ffe904c        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(sysrng.o)
+ .rodata.Rcon   0x000000003ffe9054        0xa C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libbearssl.a(aes_ct.o)
  .rodata._ZSt7nothrow
-                0x000000003ffe9046        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libstdc++.a(new_handler.o)
-                0x000000003ffe9046                _ZSt7nothrow
+                0x000000003ffe905e        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\libstdc++.a(new_handler.o)
+                0x000000003ffe905e                _ZSt7nothrow
  .rodata.str1.1
-                0x000000003ffe9047        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf_float.o)
+                0x000000003ffe905f        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf_float.o)
                                          0x12 (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe904f        0x5 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_float.o)
+                0x000000003ffe9067        0x5 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_float.o)
                                           0x6 (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe9054        0x5 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-strtod.o)
+                0x000000003ffe906c        0x5 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-strtod.o)
                                           0xd (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe9054       0x48 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzset_r.o)
+                0x000000003ffe906c       0x48 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzset_r.o)
                                          0x5a (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe909c        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzvars.o)
+                0x000000003ffe90b4        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzvars.o)
  .rodata.str1.1
-                0x000000003ffe909c       0x3c c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-dtoa.o)
+                0x000000003ffe90b4       0x3c c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-dtoa.o)
                                          0x3e (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe90d8        0xf c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-gdtoa-gethex.o)
+                0x000000003ffe90f0        0xf c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-gdtoa-gethex.o)
                                          0x20 (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe90e7        0x3 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-lnumeric.o)
+                0x000000003ffe90ff        0x3 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-lnumeric.o)
  .rodata.str1.1
-                0x000000003ffe90e7        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-locale.o)
+                0x000000003ffe90ff        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-locale.o)
                                           0xb (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe90ef        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-mprec.o)
+                0x000000003ffe9107        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-mprec.o)
                                          0x30 (size before relaxing)
  .rodata.str1.1
-                0x000000003ffe90f7       0x11 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfprintf.o)
+                0x000000003ffe910f       0x11 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x000000003ffe9108       0x11 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf.o)
+                0x000000003ffe9120       0x11 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf.o)
  .rodata.str1.1
-                0x000000003ffe9108        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfscanf.o)
+                0x000000003ffe9120        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfscanf.o)
  .rodata.str1.1
-                0x000000003ffe9108       0x1b c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_i.o)
+                0x000000003ffe9120       0x1b c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_i.o)
  .rodata._ZN18ESP8266WiFiAPClass16softAPmacAddressEv.str1.1
-                0x000000003ffe9123       0x1e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiAP.cpp.o)
- *fill*         0x000000003ffe9123        0x1 
+                0x000000003ffe913b       0x1e C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiAP.cpp.o)
+ *fill*         0x000000003ffe913b        0x1 
  .rodata._ZN10DhcpServer11MagicCookieE
-                0x000000003ffe9124        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer.cpp.o)
-                0x000000003ffe9124                _ZN10DhcpServer11MagicCookieE
+                0x000000003ffe913c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer.cpp.o)
+                0x000000003ffe913c                _ZN10DhcpServer11MagicCookieE
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003ffe9128                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
+                0x000000003ffe9140                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003ffe9128                . = ALIGN (0x4)
-                0x000000003ffe9128                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
+                0x000000003ffe9140                . = ALIGN (0x4)
+                0x000000003ffe9140                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003ffe9128                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003ffe9140                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003ffe9128                _rodata_end = ABSOLUTE (.)
+                0x000000003ffe9140                _rodata_end = ABSOLUTE (.)
 
-.bss            0x000000003ffe9128     0x6870
-                0x000000003ffe9128                . = ALIGN (0x8)
-                0x000000003ffe9128                _bss_start = ABSOLUTE (.)
+.bss            0x000000003ffe9140     0x6868
+                0x000000003ffe9140                . = ALIGN (0x8)
+                0x000000003ffe9140                _bss_start = ABSOLUTE (.)
  *(.dynsbss)
  *(.sbss)
  *(.sbss.*)
@@ -25277,588 +25277,588 @@ END GROUP
  *(.gnu.linkonce.sb2.*)
  *(.dynbss)
  *(.bss)
- .bss           0x000000003ffe9128        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_sleep.o)
-                0x000000003ffe9128                periodic_cal_sat
-                0x000000003ffe9129                rtc_cali_trig_en
-                0x000000003ffe912a                lslp_mem_opt_8266
-                0x000000003ffe912c                software_slp_reject
-                0x000000003ffe912d                SDIO_slp_reject
-                0x000000003ffe912e                hardware_reject
- *fill*         0x000000003ffe912f        0x1 
- .bss           0x000000003ffe9130        0x3 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_ana.o)
-                0x000000003ffe9130                or_pll_cap_last
-                0x000000003ffe9131                tout_dis_txpwr_track
-                0x000000003ffe9132                sleep_mode_flag
- *fill*         0x000000003ffe9133        0x5 
- .bss           0x000000003ffe9138      0x15b C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6.o)
-                0x000000003ffe9138                g_phyFuns
-                0x000000003ffe913c                rxiq_compute_num
-                0x000000003ffe9140                rx_table_renew_en
-                0x000000003ffe9144                check_result
-                0x000000003ffe9148                chip6_sleep_params
-                0x000000003ffe91dc                chip6_phy_init_ctrl
-                0x000000003ffe9250                phy_freq_offset
-                0x000000003ffe9252                do_pwctrl_flag
-                0x000000003ffe9253                txbk_dpdby_flag
-                0x000000003ffe9255                sw_scan_mode
-                0x000000003ffe9256                rxmax_ext_level
-                0x000000003ffe9258                phy_rx_gain_dc_table
-                0x000000003ffe925c                tx_data1
-                0x000000003ffe9260                tx_data2
-                0x000000003ffe9264                tx_data3
-                0x000000003ffe9268                tx_data4
-                0x000000003ffe926c                periodic_cal_flag
-                0x000000003ffe926d                bbpll_cal_flag
-                0x000000003ffe926e                phy_in_most_power
-                0x000000003ffe926f                init_rf_no_cal
-                0x000000003ffe9270                test_print_time
-                0x000000003ffe9274                phy_in_vdd33_offset
-                0x000000003ffe9275                phy_set_most_tpw_disbg
-                0x000000003ffe9276                phy_set_most_tpw_index
-                0x000000003ffe9278                adc_rand_noise
-                0x000000003ffe927c                chan14_mic_en
-                0x000000003ffe927d                chan14_mic_flag
-                0x000000003ffe927e                phy_in_most_power_bk
-                0x000000003ffe927f                phy_rx_gain_dc_flag
-                0x000000003ffe9280                dpd_bypass_original
-                0x000000003ffe9282                phy_txpwr_diff_flash
-                0x000000003ffe9288                noise_array
- *fill*         0x000000003ffe9293        0x1 
- .bss           0x000000003ffe9294        0x9 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_cal.o)
-                0x000000003ffe9294                phy_tx_power_out
-                0x000000003ffe9296                phy_tx_pwr_error
-                0x000000003ffe9298                tx_pwctrl_track_num
-                0x000000003ffe9299                rxiq_cover_fail_num
-                0x000000003ffe929a                phy_meas_freq_offset
-                0x000000003ffe929c                tx_pwctrl_pk_num
- *fill*         0x000000003ffe929d        0x3 
- .bss           0x000000003ffe92a0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy.o)
- *fill*         0x000000003ffe92a4        0xc 
- .bss           0x000000003ffe92b0      0x13a C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
-                0x000000003ffe92b0                pmc
- *fill*         0x000000003ffe93ea        0x2 
- .bss           0x000000003ffe93ec       0x38 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
- *fill*         0x000000003ffe9424        0xc 
- .bss           0x000000003ffe9430      0x342 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
-                0x000000003ffe9448                pend_flag_noise_check
-                0x000000003ffe9450                pend_flag_periodic_cal
-                0x000000003ffe9468                idle_timer_reopen_flag
-                0x000000003ffe946a                dbg_stop_sw_wdt
-                0x000000003ffe946b                dbg_stop_hw_wdt
-                0x000000003ffe946d                total_buffed_eb_num
-                0x000000003ffe9470                freq_change_sta_scan
-                0x000000003ffe9484                test_freq_val_force_flag
-                0x000000003ffe9486                TestStaFreqCalValFilter
-                0x000000003ffe9488                PktsNumInOneChk
-                0x000000003ffe948c                AllFreqOffsetInOneChk
-                0x000000003ffe9490                AvgFreqOffsetInOneChk
-                0x000000003ffe9492                HighestFreqOffsetInOneChk
-                0x000000003ffe9494                LowestFreqOffsetInOneChk
-                0x000000003ffe9496                pktnum_sta_freqcal
-                0x000000003ffe9498                all_freqoffset_sta_freqcal
-                0x000000003ffe949a                avg_freqoffset_sta_freqcal
-                0x000000003ffe949c                DefFreqCalTimer
-                0x000000003ffe94b0                PktNumInOneChk
-                0x000000003ffe9630                buffed_eb_arr
- *fill*         0x000000003ffe9772        0xe 
- .bss           0x000000003ffe9780      0x100 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(rate_control.o)
- .bss           0x000000003ffe9880      0x46c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(trc.o)
- *fill*         0x000000003ffe9cec        0x4 
- .bss           0x000000003ffe9cf0     0x2f88 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
-                0x000000003ffe9cf0                wDevCtrl
-                0x000000003ffe9e98                WdevTimOffSet
- *fill*         0x000000003ffecc78        0x8 
- .bss           0x000000003ffecc80      0xaa4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(esf_buf.o)
- *fill*         0x000000003ffed724        0xc 
- .bss           0x000000003ffed730       0x40 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(if_hwctrl.o)
-                0x000000003ffed730                interface_mask
-                0x000000003ffed750                if_ctrl
- .bss           0x000000003ffed770      0x150 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
-                0x000000003ffed774                lmacConfMib
-                0x000000003ffed798                our_tx_eb
- .bss           0x000000003ffed8c0      0x6a8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211.o)
-                0x000000003ffed8c0                g_ic
- .bss           0x000000003ffedf68       0x49 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
-                0x000000003ffedf68                BcnEb_update
-                0x000000003ffedf75                BcnWithMcastSendStart
-                0x000000003ffedf76                BcnWithMcastSendCnt
-                0x000000003ffedf90                PendFreeBcnEb
-                0x000000003ffedf92                ap_freq_force_to_scan
-                0x000000003ffedf94                ApFreqCalTimer
-                0x000000003ffedfa8                APRecvBcnStartTick
- *fill*         0x000000003ffedfb1        0x3 
- .bss           0x000000003ffedfb4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_output.o)
- .bss           0x000000003ffedfb8       0xcc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_scan.o)
-                0x000000003ffedfb8                gScanStruct
-                0x000000003ffee064                freq_change_check_softap_link_enable
-                0x000000003ffee065                FreqCalCntForScan
-                0x000000003ffee066                TestStaFreqCalValInput
-                0x000000003ffee068                TestStaFreqCalValDev
-                0x000000003ffee06a                connect_scan_flag
-                0x000000003ffee06b                auth_type
-                0x000000003ffee06c                scannum
- *fill*         0x000000003ffee084        0x4 
- .bss           0x000000003ffee088       0x28 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
- .bss           0x000000003ffee0b0       0x54 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_chm.o)
- *fill*         0x000000003ffee104        0x4 
- .bss           0x000000003ffee108      0x3ac C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_cnx.o)
-                0x000000003ffee480                sta_con_timer
-                0x000000003ffee494                backup_ni_connect_status
-                0x000000003ffee498                g_cnx_probe_rc_list_cb
-                0x000000003ffee49c                reconnect_flag
-                0x000000003ffee49d                no_ap_found_index
- *fill*         0x000000003ffee4b4        0x4 
- .bss           0x000000003ffee4b8       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_action_vendor.o)
- .bss           0x000000003ffee4d0       0x60 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa_auth.o)
-                0x000000003ffee4d4                resend_eapol
- .bss           0x000000003ffee530      0x26a C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa.o)
- *fill*         0x000000003ffee79a        0x2 
- .bss           0x000000003ffee79c       0x45 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
-                0x000000003ffee7a0                info
-                0x000000003ffee7c4                freq_trace_enable
-                0x000000003ffee7c6                lwip_timer_interval
-                0x000000003ffee7c8                check_timeouts_timer
-                0x000000003ffee7dc                rf_cal_sec
-                0x000000003ffee7e0                user_init_flag
- *fill*         0x000000003ffee7e1        0x3 
- .bss           0x000000003ffee7e4        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(eagle_lwip_if.o)
-                0x000000003ffee7e4                wifi_station_hostname
- .bss           0x000000003ffee7f0       0x30 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
-                0x000000003ffee7f0                dbg_timer_flag
-                0x000000003ffee7f4                timer_list
-                0x000000003ffee7f8                debug_timer
-                0x000000003ffee7fc                debug_timerfn
- .bss           0x000000003ffee820      0x252 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(user_interface.o)
-                0x000000003ffee91e                protect_flag
-                0x000000003ffee928                deep_sleep_flag
-                0x000000003ffee929                cpu_overclock
-                0x000000003ffee92c                event_cb
-                0x000000003ffee930                status_led_output_level
-                0x000000003ffee934                done_cb
-                0x000000003ffee938                rst_if
-                0x000000003ffee954                default_interface
-                0x000000003ffee955                OpmodChgIsOnGoing
-                0x000000003ffee958                promiscuous_cb
-                0x000000003ffee970                event_TaskQueue
- *fill*         0x000000003ffeea72        0xe 
- .bss           0x000000003ffeea80      0x1c0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(nmi-vector.o)
- .bss           0x000000003ffeec40        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(spi_flash.o)
-                0x000000003ffeec40                flash_read
- .bss           0x000000003ffeec44        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzlock.o)
- .bss           0x000000003ffeec48       0x1a c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzset_r.o)
- *fill*         0x000000003ffeec62        0x2 
- .bss           0x000000003ffeec64        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzvars.o)
-                0x000000003ffeec64                _timezone
-                0x000000003ffeec68                _daylight
- .bss           0x000000003ffeec6c        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-environ.o)
- .bss           0x000000003ffeec70        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-envlock.o)
- .bss           0x000000003ffeec74        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-findfp.o)
- .bss           0x000000003ffeec7c        0xc c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0\libgcc.a(unwind-dw2-fde.o)
- .bss           0x000000003ffeec88        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_crypto_tkip.o)
+ .bss           0x000000003ffe9140        0x7 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_sleep.o)
+                0x000000003ffe9140                periodic_cal_sat
+                0x000000003ffe9141                rtc_cali_trig_en
+                0x000000003ffe9142                lslp_mem_opt_8266
+                0x000000003ffe9144                software_slp_reject
+                0x000000003ffe9145                SDIO_slp_reject
+                0x000000003ffe9146                hardware_reject
+ *fill*         0x000000003ffe9147        0x1 
+ .bss           0x000000003ffe9148        0x3 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_ana.o)
+                0x000000003ffe9148                or_pll_cap_last
+                0x000000003ffe9149                tout_dis_txpwr_track
+                0x000000003ffe914a                sleep_mode_flag
+ *fill*         0x000000003ffe914b        0x5 
+ .bss           0x000000003ffe9150      0x15b C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6.o)
+                0x000000003ffe9150                g_phyFuns
+                0x000000003ffe9154                rxiq_compute_num
+                0x000000003ffe9158                rx_table_renew_en
+                0x000000003ffe915c                check_result
+                0x000000003ffe9160                chip6_sleep_params
+                0x000000003ffe91f4                chip6_phy_init_ctrl
+                0x000000003ffe9268                phy_freq_offset
+                0x000000003ffe926a                do_pwctrl_flag
+                0x000000003ffe926b                txbk_dpdby_flag
+                0x000000003ffe926d                sw_scan_mode
+                0x000000003ffe926e                rxmax_ext_level
+                0x000000003ffe9270                phy_rx_gain_dc_table
+                0x000000003ffe9274                tx_data1
+                0x000000003ffe9278                tx_data2
+                0x000000003ffe927c                tx_data3
+                0x000000003ffe9280                tx_data4
+                0x000000003ffe9284                periodic_cal_flag
+                0x000000003ffe9285                bbpll_cal_flag
+                0x000000003ffe9286                phy_in_most_power
+                0x000000003ffe9287                init_rf_no_cal
+                0x000000003ffe9288                test_print_time
+                0x000000003ffe928c                phy_in_vdd33_offset
+                0x000000003ffe928d                phy_set_most_tpw_disbg
+                0x000000003ffe928e                phy_set_most_tpw_index
+                0x000000003ffe9290                adc_rand_noise
+                0x000000003ffe9294                chan14_mic_en
+                0x000000003ffe9295                chan14_mic_flag
+                0x000000003ffe9296                phy_in_most_power_bk
+                0x000000003ffe9297                phy_rx_gain_dc_flag
+                0x000000003ffe9298                dpd_bypass_original
+                0x000000003ffe929a                phy_txpwr_diff_flash
+                0x000000003ffe92a0                noise_array
+ *fill*         0x000000003ffe92ab        0x1 
+ .bss           0x000000003ffe92ac        0x9 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_cal.o)
+                0x000000003ffe92ac                phy_tx_power_out
+                0x000000003ffe92ae                phy_tx_pwr_error
+                0x000000003ffe92b0                tx_pwctrl_track_num
+                0x000000003ffe92b1                rxiq_cover_fail_num
+                0x000000003ffe92b2                phy_meas_freq_offset
+                0x000000003ffe92b4                tx_pwctrl_pk_num
+ *fill*         0x000000003ffe92b5        0x3 
+ .bss           0x000000003ffe92b8        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy.o)
+ *fill*         0x000000003ffe92bc        0x4 
+ .bss           0x000000003ffe92c0      0x13a C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
+                0x000000003ffe92c0                pmc
+ *fill*         0x000000003ffe93fa        0x2 
+ .bss           0x000000003ffe93fc       0x38 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
+ *fill*         0x000000003ffe9434        0xc 
+ .bss           0x000000003ffe9440      0x342 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
+                0x000000003ffe9458                pend_flag_noise_check
+                0x000000003ffe9460                pend_flag_periodic_cal
+                0x000000003ffe9478                idle_timer_reopen_flag
+                0x000000003ffe947a                dbg_stop_sw_wdt
+                0x000000003ffe947b                dbg_stop_hw_wdt
+                0x000000003ffe947d                total_buffed_eb_num
+                0x000000003ffe9480                freq_change_sta_scan
+                0x000000003ffe9494                test_freq_val_force_flag
+                0x000000003ffe9496                TestStaFreqCalValFilter
+                0x000000003ffe9498                PktsNumInOneChk
+                0x000000003ffe949c                AllFreqOffsetInOneChk
+                0x000000003ffe94a0                AvgFreqOffsetInOneChk
+                0x000000003ffe94a2                HighestFreqOffsetInOneChk
+                0x000000003ffe94a4                LowestFreqOffsetInOneChk
+                0x000000003ffe94a6                pktnum_sta_freqcal
+                0x000000003ffe94a8                all_freqoffset_sta_freqcal
+                0x000000003ffe94aa                avg_freqoffset_sta_freqcal
+                0x000000003ffe94ac                DefFreqCalTimer
+                0x000000003ffe94c0                PktNumInOneChk
+                0x000000003ffe9640                buffed_eb_arr
+ *fill*         0x000000003ffe9782        0xe 
+ .bss           0x000000003ffe9790      0x100 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(rate_control.o)
+ .bss           0x000000003ffe9890      0x46c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(trc.o)
+ *fill*         0x000000003ffe9cfc        0x4 
+ .bss           0x000000003ffe9d00     0x2f88 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
+                0x000000003ffe9d00                wDevCtrl
+                0x000000003ffe9ea8                WdevTimOffSet
+ *fill*         0x000000003ffecc88        0x8 
+ .bss           0x000000003ffecc90      0xaa4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(esf_buf.o)
+ *fill*         0x000000003ffed734        0xc 
+ .bss           0x000000003ffed740       0x40 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(if_hwctrl.o)
+                0x000000003ffed740                interface_mask
+                0x000000003ffed760                if_ctrl
+ .bss           0x000000003ffed780      0x150 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
+                0x000000003ffed784                lmacConfMib
+                0x000000003ffed7a8                our_tx_eb
+ .bss           0x000000003ffed8d0      0x6a8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211.o)
+                0x000000003ffed8d0                g_ic
+ .bss           0x000000003ffedf78       0x49 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
+                0x000000003ffedf78                BcnEb_update
+                0x000000003ffedf85                BcnWithMcastSendStart
+                0x000000003ffedf86                BcnWithMcastSendCnt
+                0x000000003ffedfa0                PendFreeBcnEb
+                0x000000003ffedfa2                ap_freq_force_to_scan
+                0x000000003ffedfa4                ApFreqCalTimer
+                0x000000003ffedfb8                APRecvBcnStartTick
+ *fill*         0x000000003ffedfc1        0x3 
+ .bss           0x000000003ffedfc4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_output.o)
+ .bss           0x000000003ffedfc8       0xcc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_scan.o)
+                0x000000003ffedfc8                gScanStruct
+                0x000000003ffee074                freq_change_check_softap_link_enable
+                0x000000003ffee075                FreqCalCntForScan
+                0x000000003ffee076                TestStaFreqCalValInput
+                0x000000003ffee078                TestStaFreqCalValDev
+                0x000000003ffee07a                connect_scan_flag
+                0x000000003ffee07b                auth_type
+                0x000000003ffee07c                scannum
+ *fill*         0x000000003ffee094        0x4 
+ .bss           0x000000003ffee098       0x28 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
+ .bss           0x000000003ffee0c0       0x54 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_chm.o)
+ *fill*         0x000000003ffee114        0x4 
+ .bss           0x000000003ffee118      0x3ac C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_cnx.o)
+                0x000000003ffee490                sta_con_timer
+                0x000000003ffee4a4                backup_ni_connect_status
+                0x000000003ffee4a8                g_cnx_probe_rc_list_cb
+                0x000000003ffee4ac                reconnect_flag
+                0x000000003ffee4ad                no_ap_found_index
+ *fill*         0x000000003ffee4c4        0x4 
+ .bss           0x000000003ffee4c8       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_action_vendor.o)
+ .bss           0x000000003ffee4e0       0x60 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa_auth.o)
+                0x000000003ffee4e4                resend_eapol
+ .bss           0x000000003ffee540      0x26a C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa.o)
+ *fill*         0x000000003ffee7aa        0x2 
+ .bss           0x000000003ffee7ac       0x45 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
+                0x000000003ffee7b0                info
+                0x000000003ffee7d4                freq_trace_enable
+                0x000000003ffee7d6                lwip_timer_interval
+                0x000000003ffee7d8                check_timeouts_timer
+                0x000000003ffee7ec                rf_cal_sec
+                0x000000003ffee7f0                user_init_flag
+ *fill*         0x000000003ffee7f1        0x3 
+ .bss           0x000000003ffee7f4        0xc C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(eagle_lwip_if.o)
+                0x000000003ffee7f4                wifi_station_hostname
+ .bss           0x000000003ffee800       0x30 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
+                0x000000003ffee800                dbg_timer_flag
+                0x000000003ffee804                timer_list
+                0x000000003ffee808                debug_timer
+                0x000000003ffee80c                debug_timerfn
+ .bss           0x000000003ffee830      0x252 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(user_interface.o)
+                0x000000003ffee92e                protect_flag
+                0x000000003ffee938                deep_sleep_flag
+                0x000000003ffee939                cpu_overclock
+                0x000000003ffee93c                event_cb
+                0x000000003ffee940                status_led_output_level
+                0x000000003ffee944                done_cb
+                0x000000003ffee948                rst_if
+                0x000000003ffee964                default_interface
+                0x000000003ffee965                OpmodChgIsOnGoing
+                0x000000003ffee968                promiscuous_cb
+                0x000000003ffee980                event_TaskQueue
+ *fill*         0x000000003ffeea82        0xe 
+ .bss           0x000000003ffeea90      0x1c0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(nmi-vector.o)
+ .bss           0x000000003ffeec50        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libmain.a(spi_flash.o)
+                0x000000003ffeec50                flash_read
+ .bss           0x000000003ffeec54        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzlock.o)
+ .bss           0x000000003ffeec58       0x1a c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzset_r.o)
+ *fill*         0x000000003ffeec72        0x2 
+ .bss           0x000000003ffeec74        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-tzvars.o)
+                0x000000003ffeec74                _timezone
+                0x000000003ffeec78                _daylight
+ .bss           0x000000003ffeec7c        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-environ.o)
+ .bss           0x000000003ffeec80        0x4 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-envlock.o)
+ .bss           0x000000003ffeec84        0x8 c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0/../../../../xtensa-lx106-elf/lib\libc.a(lib_a-findfp.o)
+ .bss           0x000000003ffeec8c        0xc c:/users/azna3/appdata/local/arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/../lib/gcc/xtensa-lx106-elf/10.3.0\libgcc.a(unwind-dw2-fde.o)
+ .bss           0x000000003ffeec98        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_crypto_tkip.o)
  *(.bss.*)
  .bss.statusInternet
-                0x000000003ffeec90        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeec90                statusInternet
+                0x000000003ffeeca0        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeeca0                statusInternet
  .bss.pingGagalCount
-                0x000000003ffeec9c        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeec9c                pingGagalCount
+                0x000000003ffeecac        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecac                pingGagalCount
  .bss.lastPingCheck
-                0x000000003ffeeca0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeeca0                lastPingCheck
- .bss.lastOtaCheck
-                0x000000003ffeeca4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeeca4                lastOtaCheck
- .bss.lastPrint
-                0x000000003ffeeca8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeeca8                lastPrint
- .bss.perluUploadUlang
-                0x000000003ffeecac        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecac                perluUploadUlang
- *fill*         0x000000003ffeecad        0x3 
- .bss.nilaiHarian
                 0x000000003ffeecb0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecb0                nilaiHarian
- .bss.nilaiJam  0x000000003ffeecb4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecb4                nilaiJam
- .bss.tippingHarian
+                0x000000003ffeecb0                lastPingCheck
+ .bss.lastOtaCheck
+                0x000000003ffeecb4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecb4                lastOtaCheck
+ .bss.lastPrint
                 0x000000003ffeecb8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecb8                tippingHarian
+                0x000000003ffeecb8                lastPrint
+ .bss.perluUploadUlang
+                0x000000003ffeecbc        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecbc                perluUploadUlang
+ *fill*         0x000000003ffeecbd        0x3 
+ .bss.nilaiHarian
+                0x000000003ffeecc0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecc0                nilaiHarian
+ .bss.nilaiJam  0x000000003ffeecc4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecc4                nilaiJam
+ .bss.tippingHarian
+                0x000000003ffeecc8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecc8                tippingHarian
  .bss.tippingJam
-                0x000000003ffeecbc        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecbc                tippingJam
- .bss.detik     0x000000003ffeecc0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecc0                detik
- .bss.menit     0x000000003ffeecc4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecc4                menit
- .bss.jam       0x000000003ffeecc8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecc8                jam
- .bss.tanggal   0x000000003ffeeccc        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeeccc                tanggal
- .bss.bulan     0x000000003ffeecd0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecd0                bulan
- .bss.tahun     0x000000003ffeecd4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecd4                tahun
- .bss.lcd       0x000000003ffeecd8       0x10 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecd8                lcd
- .bss.id        0x000000003ffeece8        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeece8                id
- .bss.nm_pos    0x000000003ffeecf4        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeecf4                nm_pos
+                0x000000003ffeeccc        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeeccc                tippingJam
+ .bss.detik     0x000000003ffeecd0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecd0                detik
+ .bss.menit     0x000000003ffeecd4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecd4                menit
+ .bss.jam       0x000000003ffeecd8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecd8                jam
+ .bss.tanggal   0x000000003ffeecdc        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecdc                tanggal
+ .bss.bulan     0x000000003ffeece0        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeece0                bulan
+ .bss.tahun     0x000000003ffeece4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeece4                tahun
+ .bss.lcd       0x000000003ffeece8       0x10 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeece8                lcd
+ .bss.id        0x000000003ffeecf8        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeecf8                id
+ .bss.nm_pos    0x000000003ffeed04        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeed04                nm_pos
  .bss.currentVersion
-                0x000000003ffeed00        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
-                0x000000003ffeed00                currentVersion
- .bss.WiFi      0x000000003ffeed0c        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
-                0x000000003ffeed0c                WiFi
+                0x000000003ffeed10        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\sketch\hujan_pekatan8266_github.ino.cpp.o
+                0x000000003ffeed10                currentVersion
+ .bss.WiFi      0x000000003ffeed1c        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
+                0x000000003ffeed1c                WiFi
  .bss._ZN23ESP8266WiFiGenericClass11_persistentE
-                0x000000003ffeed0d        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
-                0x000000003ffeed0d                _ZN23ESP8266WiFiGenericClass11_persistentE
- *fill*         0x000000003ffeed0e        0x2 
- .bss._ZL12sCbEventList
-                0x000000003ffeed10        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
- .bss._ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
-                0x000000003ffeed1c        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
-                0x000000003ffeed1c                _ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
- .bss._ZN19ESP8266WiFiSTAClass12_useStaticIpE
-                0x000000003ffeed1d        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
-                0x000000003ffeed1d                _ZN19ESP8266WiFiSTAClass12_useStaticIpE
+                0x000000003ffeed1d        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+                0x000000003ffeed1d                _ZN23ESP8266WiFiGenericClass11_persistentE
  *fill*         0x000000003ffeed1e        0x2 
+ .bss._ZL12sCbEventList
+                0x000000003ffeed20        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+ .bss._ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
+                0x000000003ffeed2c        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x000000003ffeed2c                _ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
+ .bss._ZN19ESP8266WiFiSTAClass12_useStaticIpE
+                0x000000003ffeed2d        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x000000003ffeed2d                _ZN19ESP8266WiFiSTAClass12_useStaticIpE
+ *fill*         0x000000003ffeed2e        0x2 
  .bss._ZN5SListI10WiFiClientE8_s_firstE
-                0x000000003ffeed20        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
-                0x000000003ffeed20                _ZN5SListI10WiFiClientE8_s_firstE
+                0x000000003ffeed30        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x000000003ffeed30                _ZN5SListI10WiFiClientE8_s_firstE
  .bss._ZL11defaultSync
-                0x000000003ffeed24        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x000000003ffeed34        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
  .bss._ZL14defaultNoDelay
-                0x000000003ffeed25        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x000000003ffeed35        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
  .bss._ZN10WiFiClient10_localPortE
-                0x000000003ffeed26        0x2 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
-                0x000000003ffeed26                _ZN10WiFiClient10_localPortE
+                0x000000003ffeed36        0x2 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x000000003ffeed36                _ZN10WiFiClient10_localPortE
  .bss._ZN10HTTPClient16defaultUserAgentE
-                0x000000003ffeed28        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
-                0x000000003ffeed28                _ZN10HTTPClient16defaultUserAgentE
+                0x000000003ffeed38        0xc C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266HTTPClient\ESP8266HTTPClient.a(ESP8266HTTPClient.cpp.o)
+                0x000000003ffeed38                _ZN10HTTPClient16defaultUserAgentE
  .bss.ESPhttpUpdate
-                0x000000003ffeed34       0x88 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266httpUpdate\ESP8266httpUpdate.a(ESP8266httpUpdate.cpp.o)
-                0x000000003ffeed34                ESPhttpUpdate
- .bss.Ping      0x000000003ffeedbc       0x34 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266Ping\ESP8266Ping.cpp.o
-                0x000000003ffeedbc                Ping
- .bss.Wire      0x000000003ffeedf0       0x14 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeedf0                Wire
+                0x000000003ffeed44       0x88 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266httpUpdate\ESP8266httpUpdate.a(ESP8266httpUpdate.cpp.o)
+                0x000000003ffeed44                ESPhttpUpdate
+ .bss.Ping      0x000000003ffeedcc       0x34 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266Ping\ESP8266Ping.cpp.o
+                0x000000003ffeedcc                Ping
+ .bss.Wire      0x000000003ffeee00       0x14 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeee00                Wire
  .bss._ZN7TwoWire12transmittingE
-                0x000000003ffeee04        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee04                _ZN7TwoWire12transmittingE
- *fill*         0x000000003ffeee05        0x3 
+                0x000000003ffeee14        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeee14                _ZN7TwoWire12transmittingE
+ *fill*         0x000000003ffeee15        0x3 
  .bss._ZN7TwoWire14txBufferLengthE
-                0x000000003ffeee08        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee08                _ZN7TwoWire14txBufferLengthE
+                0x000000003ffeee18        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeee18                _ZN7TwoWire14txBufferLengthE
  .bss._ZN7TwoWire13txBufferIndexE
-                0x000000003ffeee0c        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee0c                _ZN7TwoWire13txBufferIndexE
+                0x000000003ffeee1c        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeee1c                _ZN7TwoWire13txBufferIndexE
  .bss._ZN7TwoWire8txBufferE
-                0x000000003ffeee10       0x80 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee10                _ZN7TwoWire8txBufferE
+                0x000000003ffeee20       0x80 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeee20                _ZN7TwoWire8txBufferE
  .bss._ZN7TwoWire9txAddressE
-                0x000000003ffeee90        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee90                _ZN7TwoWire9txAddressE
- *fill*         0x000000003ffeee91        0x3 
+                0x000000003ffeeea0        0x1 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeeea0                _ZN7TwoWire9txAddressE
+ *fill*         0x000000003ffeeea1        0x3 
  .bss._ZN7TwoWire14rxBufferLengthE
-                0x000000003ffeee94        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee94                _ZN7TwoWire14rxBufferLengthE
+                0x000000003ffeeea4        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeeea4                _ZN7TwoWire14rxBufferLengthE
  .bss._ZN7TwoWire13rxBufferIndexE
-                0x000000003ffeee98        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee98                _ZN7TwoWire13rxBufferIndexE
+                0x000000003ffeeea8        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeeea8                _ZN7TwoWire13rxBufferIndexE
  .bss._ZN7TwoWire8rxBufferE
-                0x000000003ffeee9c       0x80 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
-                0x000000003ffeee9c                _ZN7TwoWire8rxBufferE
- .bss.EEPROM    0x000000003ffeef1c       0x10 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\EEPROM\EEPROM.cpp.o
-                0x000000003ffeef1c                EEPROM
- *fill*         0x000000003ffeef2c        0x4 
+                0x000000003ffeeeac       0x80 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\Wire\Wire.cpp.o
+                0x000000003ffeeeac                _ZN7TwoWire8rxBufferE
+ .bss.EEPROM    0x000000003ffeef2c       0x10 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\EEPROM\EEPROM.cpp.o
+                0x000000003ffeef2c                EEPROM
+ *fill*         0x000000003ffeef3c        0x4 
  .bss._ZGVZN8EspClass12getSketchMD5EvE6result
-                0x000000003ffeef30        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+                0x000000003ffeef40        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
  .bss._ZZN8EspClass12getSketchMD5EvE6result
-                0x000000003ffeef38        0xc C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+                0x000000003ffeef48        0xc C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
  .bss._ZZL20spi_flash_write_puyajPjjE20flash_write_puya_buf
-                0x000000003ffeef44        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+                0x000000003ffeef54        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
  .bss._ZZN8EspClass13getSketchSizeEvE6result
-                0x000000003ffeef48        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+                0x000000003ffeef58        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
  .bss._ZZN8EspClass14getFlashChipIdEvE13flash_chip_id
-                0x000000003ffeef4c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
- .bss.Serial1   0x000000003ffeef50       0x20 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(HardwareSerial.cpp.o)
-                0x000000003ffeef50                Serial1
- .bss.Serial    0x000000003ffeef70       0x20 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(HardwareSerial.cpp.o)
-                0x000000003ffeef70                Serial
+                0x000000003ffeef5c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Esp.cpp.o)
+ .bss.Serial1   0x000000003ffeef60       0x20 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(HardwareSerial.cpp.o)
+                0x000000003ffeef60                Serial1
+ .bss.Serial    0x000000003ffeef80       0x20 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(HardwareSerial.cpp.o)
+                0x000000003ffeef80                Serial
  .bss.INADDR_NONE
-                0x000000003ffeef90        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(IPAddress.cpp.o)
-                0x000000003ffeef90                INADDR_NONE
+                0x000000003ffeefa0        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(IPAddress.cpp.o)
+                0x000000003ffeefa0                INADDR_NONE
  .bss.INADDR_ANY
-                0x000000003ffeef98        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(IPAddress.cpp.o)
-                0x000000003ffeef98                INADDR_ANY
+                0x000000003ffeefa8        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(IPAddress.cpp.o)
+                0x000000003ffeefa8                INADDR_ANY
  .bss.stack_thunk_refcnt
-                0x000000003ffeefa0        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
-                0x000000003ffeefa0                stack_thunk_refcnt
+                0x000000003ffeefb0        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
+                0x000000003ffeefb0                stack_thunk_refcnt
  .bss.stack_thunk_save
-                0x000000003ffeefa4        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
-                0x000000003ffeefa4                stack_thunk_save
+                0x000000003ffeefb4        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
+                0x000000003ffeefb4                stack_thunk_save
  .bss.stack_thunk_top
-                0x000000003ffeefa8        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
-                0x000000003ffeefa8                stack_thunk_top
+                0x000000003ffeefb8        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
+                0x000000003ffeefb8                stack_thunk_top
  .bss.stack_thunk_ptr
-                0x000000003ffeefac        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
-                0x000000003ffeefac                stack_thunk_ptr
- .bss.devnull   0x000000003ffeefb0       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StreamSend.cpp.o)
-                0x000000003ffeefb0                devnull
- .bss.Update    0x000000003ffeefc4       0xe4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Updater.cpp.o)
-                0x000000003ffeefc4                Update
+                0x000000003ffeefbc        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StackThunk.cpp.o)
+                0x000000003ffeefbc                stack_thunk_ptr
+ .bss.devnull   0x000000003ffeefc0       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(StreamSend.cpp.o)
+                0x000000003ffeefc0                devnull
+ .bss.Update    0x000000003ffeefd4       0xe4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Updater.cpp.o)
+                0x000000003ffeefd4                Update
  .bss.emptyString
-                0x000000003ffef0a8        0xc C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(WString.cpp.o)
-                0x000000003ffef0a8                emptyString
+                0x000000003ffef0b8        0xc C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(WString.cpp.o)
+                0x000000003ffef0b8                emptyString
  .bss._ZZN6StringixEjE19dummy_writable_char
-                0x000000003ffef0b4        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(WString.cpp.o)
- *fill*         0x000000003ffef0b5        0x3 
+                0x000000003ffef0c4        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(WString.cpp.o)
+ *fill*         0x000000003ffef0c5        0x3 
  .bss._ZZL15do_global_ctorsvE2ob
-                0x000000003ffef0b8       0x28 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef0c8       0x28 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
  .bss._ZZL12loop_wrappervE10setup_done
-                0x000000003ffef0e0        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
- *fill*         0x000000003ffef0e1        0x3 
+                0x000000003ffef0f0        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+ *fill*         0x000000003ffef0f1        0x3 
  .bss._ZL11delay_timer
-                0x000000003ffef0e4       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef0f4       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
  .bss._ZL23ets_intr_lock_stack_ptr
-                0x000000003ffef0f8        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
- *fill*         0x000000003ffef0f9        0x1 
+                0x000000003ffef108        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+ *fill*         0x000000003ffef109        0x1 
  .bss._ZL19ets_intr_lock_stack
-                0x000000003ffef0fa        0xe C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef10a        0xe C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
  .bss._ZL18s_cycles_at_resume
-                0x000000003ffef108        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef118        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
  .bss._ZL12s_loop_queue
-                0x000000003ffef10c        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef11c        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
  .bss.resetInfo
-                0x000000003ffef114       0x1c C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
-                0x000000003ffef114                resetInfo
+                0x000000003ffef124       0x1c C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_main.cpp.o)
+                0x000000003ffef124                resetInfo
  .bss._ZL15spoof_init_data
-                0x000000003ffef130        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_phy.cpp.o)
- *fill*         0x000000003ffef131        0x3 
+                0x000000003ffef140        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_phy.cpp.o)
+ *fill*         0x000000003ffef141        0x3 
  .bss.__stack_chk_guard
-                0x000000003ffef134        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
-                0x000000003ffef134                __stack_chk_guard
+                0x000000003ffef144        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+                0x000000003ffef144                __stack_chk_guard
  .bss._ZL19s_user_reset_reason
-                0x000000003ffef138        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL17s_stacksmash_addr
-                0x000000003ffef13c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL21s_unhandled_exception
-                0x000000003ffef140        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL14s_abort_called
-                0x000000003ffef144        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- *fill*         0x000000003ffef145        0x3 
- .bss._ZL12s_panic_what
                 0x000000003ffef148        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL12s_panic_func
+ .bss._ZL17s_stacksmash_addr
                 0x000000003ffef14c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL12s_panic_line
+ .bss._ZL21s_unhandled_exception
                 0x000000003ffef150        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL14s_abort_called
+                0x000000003ffef154        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+ *fill*         0x000000003ffef155        0x3 
+ .bss._ZL12s_panic_what
+                0x000000003ffef158        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL12s_panic_func
+                0x000000003ffef15c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL12s_panic_line
+                0x000000003ffef160        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
  .bss._ZL12s_panic_file
-                0x000000003ffef154        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL3twi   0x000000003ffef158       0xac C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_si2c.cpp.o)
+                0x000000003ffef164        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL3twi   0x000000003ffef168       0xac C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_si2c.cpp.o)
  .bss._ZL21micros_overflow_count
-                0x000000003ffef204        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
+                0x000000003ffef214        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL28micros_at_last_overflow_tick
-                0x000000003ffef208        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
+                0x000000003ffef218        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL21micros_overflow_timer
-                0x000000003ffef20c       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
+                0x000000003ffef21c       0x14 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_wiring.cpp.o)
  .bss.umm_last_fail_alloc_size
-                0x000000003ffef220        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(heap.cpp.o)
-                0x000000003ffef220                umm_last_fail_alloc_size
+                0x000000003ffef230        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(heap.cpp.o)
+                0x000000003ffef230                umm_last_fail_alloc_size
  .bss.umm_last_fail_alloc_addr
-                0x000000003ffef224        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(heap.cpp.o)
-                0x000000003ffef224                umm_last_fail_alloc_addr
+                0x000000003ffef234        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(heap.cpp.o)
+                0x000000003ffef234                umm_last_fail_alloc_addr
  .bss._ZL16_settimeofday_cb
-                0x000000003ffef228       0x10 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(time.cpp.o)
+                0x000000003ffef238       0x10 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(time.cpp.o)
  .bss._ZL11timeshift64
-                0x000000003ffef238        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(time.cpp.o)
+                0x000000003ffef248        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(time.cpp.o)
  .bss._ZL15s_uart_debug_nr
-                0x000000003ffef240        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(uart.cpp.o)
+                0x000000003ffef250        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(uart.cpp.o)
  .bss._ZZ33run_scheduled_recurrent_functionsvE5fence
-                0x000000003ffef244        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- *fill*         0x000000003ffef245        0x3 
+                0x000000003ffef254        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
+ *fill*         0x000000003ffef255        0x3 
  .bss._ZL5rLast
-                0x000000003ffef248        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- .bss._ZL6rFirst
-                0x000000003ffef24c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- .bss._ZL22recurrent_max_grain_mS
-                0x000000003ffef250        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- .bss._ZL7sUnused
-                0x000000003ffef254        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- .bss._ZL5sLast
                 0x000000003ffef258        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
- .bss._ZL6sFirst
+ .bss._ZL6rFirst
                 0x000000003ffef25c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
+ .bss._ZL22recurrent_max_grain_mS
+                0x000000003ffef260        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
+ .bss._ZL7sUnused
+                0x000000003ffef264        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
+ .bss._ZL5sLast
+                0x000000003ffef268        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
+ .bss._ZL6sFirst
+                0x000000003ffef26c        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(Schedule.cpp.o)
  .bss._ZL14timer1_user_cb
-                0x000000003ffef260        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_timer.cpp.o)
+                0x000000003ffef270        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_timer.cpp.o)
  .bss._ZL10_pwmPeriod
-                0x000000003ffef264        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
+                0x000000003ffef274        0x4 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
  .bss._ZL8pwmState
-                0x000000003ffef268       0x44 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
+                0x000000003ffef278       0x44 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
  .bss._ZL12timerRunning
-                0x000000003ffef2ac        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
- *fill*         0x000000003ffef2ad        0x3 
+                0x000000003ffef2bc        0x1 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
+ *fill*         0x000000003ffef2bd        0x3 
  .bss._ZL8wvfState
-                0x000000003ffef2b0      0x200 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
+                0x000000003ffef2c0      0x200 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(core_esp8266_waveform_pwm.cpp.o)
  .bss.phy_capture
-                0x000000003ffef4b0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x000000003ffef4b0                phy_capture
- .bss.pbuf_wrapper_head
-                0x000000003ffef4b4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
- .bss.netif_esp
-                0x000000003ffef4b8        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
- .bss.netif_default
                 0x000000003ffef4c0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x000000003ffef4c0                netif_default
+                0x000000003ffef4c0                phy_capture
+ .bss.pbuf_wrapper_head
+                0x000000003ffef4c4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+ .bss.netif_esp
+                0x000000003ffef4c8        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+ .bss.netif_default
+                0x000000003ffef4d0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x000000003ffef4d0                netif_default
  .bss.netif_enabled
-                0x000000003ffef4c4        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
-                0x000000003ffef4c4                netif_enabled
+                0x000000003ffef4d4        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
+                0x000000003ffef4d4                netif_enabled
  .bss.netif_git
-                0x000000003ffef4cc       0x98 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
-                0x000000003ffef4cc                netif_git
- .bss.seqno$0   0x000000003ffef564        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
+                0x000000003ffef4dc       0x98 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
+                0x000000003ffef4dc                netif_git
+ .bss.seqno$0   0x000000003ffef574        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
  .bss.ping_seq_num
-                0x000000003ffef566        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
+                0x000000003ffef576        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(esp-ping.o)
  .bss.dns_servers
-                0x000000003ffef568        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x000000003ffef578        0x8 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_requests
-                0x000000003ffef570       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x000000003ffef580       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_table
-                0x000000003ffef588      0x1b0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x000000003ffef598      0x1b0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_seqno
-                0x000000003ffef738        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- *fill*         0x000000003ffef739        0x3 
- .bss.dns_pcbs  0x000000003ffef73c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- .bss.dns_txid  0x000000003ffef740        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x000000003ffef748        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ *fill*         0x000000003ffef749        0x3 
+ .bss.dns_pcbs  0x000000003ffef74c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ .bss.dns_txid  0x000000003ffef750        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.netif_num
-                0x000000003ffef742        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
- *fill*         0x000000003ffef743        0x1 
+                0x000000003ffef752        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
+ *fill*         0x000000003ffef753        0x1 
  .bss.netif_default_LWIP2
-                0x000000003ffef744        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
-                0x000000003ffef744                netif_default_LWIP2
+                0x000000003ffef754        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
+                0x000000003ffef754                netif_default_LWIP2
  .bss.netif_list
-                0x000000003ffef748        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
-                0x000000003ffef748                netif_list
+                0x000000003ffef758        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
+                0x000000003ffef758                netif_list
  .bss.pbuf_free_ooseq_pending
-                0x000000003ffef74c        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(pbuf.o)
-                0x000000003ffef74c                pbuf_free_ooseq_pending
- *fill*         0x000000003ffef74d        0x3 
- .bss.raw_pcbs  0x000000003ffef750        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(raw.o)
+                0x000000003ffef75c        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(pbuf.o)
+                0x000000003ffef75c                pbuf_free_ooseq_pending
+ *fill*         0x000000003ffef75d        0x3 
+ .bss.raw_pcbs  0x000000003ffef760        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(raw.o)
  .bss.tcp_timer_ctr
-                0x000000003ffef754        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef764        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .bss.tcp_timer
-                0x000000003ffef755        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef765        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .bss.tcp_active_pcbs_changed
-                0x000000003ffef756        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef756                tcp_active_pcbs_changed
- *fill*         0x000000003ffef757        0x1 
+                0x000000003ffef766        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef766                tcp_active_pcbs_changed
+ *fill*         0x000000003ffef767        0x1 
  .bss.tcp_tw_pcbs
-                0x000000003ffef758        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef758                tcp_tw_pcbs
- .bss.tcp_active_pcbs
-                0x000000003ffef75c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef75c                tcp_active_pcbs
- .bss.tcp_listen_pcbs
-                0x000000003ffef760        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef760                tcp_listen_pcbs
- .bss.tcp_bound_pcbs
-                0x000000003ffef764        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef764                tcp_bound_pcbs
- .bss.tcp_ticks
                 0x000000003ffef768        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x000000003ffef768                tcp_ticks
+                0x000000003ffef768                tcp_tw_pcbs
+ .bss.tcp_active_pcbs
+                0x000000003ffef76c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef76c                tcp_active_pcbs
+ .bss.tcp_listen_pcbs
+                0x000000003ffef770        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef770                tcp_listen_pcbs
+ .bss.tcp_bound_pcbs
+                0x000000003ffef774        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef774                tcp_bound_pcbs
+ .bss.tcp_ticks
+                0x000000003ffef778        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x000000003ffef778                tcp_ticks
  .bss.tcp_input_pcb
-                0x000000003ffef76c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
-                0x000000003ffef76c                tcp_input_pcb
+                0x000000003ffef77c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef77c                tcp_input_pcb
  .bss.recv_data
-                0x000000003ffef770        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef780        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.recv_flags
-                0x000000003ffef774        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.flags     0x000000003ffef775        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.tcplen    0x000000003ffef776        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef784        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.flags     0x000000003ffef785        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.tcplen    0x000000003ffef786        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.recv_acked
-                0x000000003ffef778        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- *fill*         0x000000003ffef77a        0x2 
- .bss.ackno     0x000000003ffef77c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.seqno     0x000000003ffef780        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef788        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ *fill*         0x000000003ffef78a        0x2 
+ .bss.ackno     0x000000003ffef78c        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.seqno     0x000000003ffef790        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcp_optidx
-                0x000000003ffef784        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- *fill*         0x000000003ffef786        0x2 
+                0x000000003ffef794        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ *fill*         0x000000003ffef796        0x2 
  .bss.tcphdr_opt2
-                0x000000003ffef788        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef798        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcphdr_opt1len
-                0x000000003ffef78c        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef79c        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcphdr_optlen
-                0x000000003ffef78e        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.tcphdr    0x000000003ffef790        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.inseg     0x000000003ffef794       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x000000003ffef79e        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.tcphdr    0x000000003ffef7a0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.inseg     0x000000003ffef7a4       0x10 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcpip_tcp_timer_active
-                0x000000003ffef7a4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+                0x000000003ffef7b4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
  .bss.current_timeout_due_time
-                0x000000003ffef7a8        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+                0x000000003ffef7b8        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
  .bss.next_timeout
-                0x000000003ffef7ac        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
- .bss.udp_pcbs  0x000000003ffef7b0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(udp.o)
-                0x000000003ffef7b0                udp_pcbs
- .bss.xid$0     0x000000003ffef7b4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x000000003ffef7bc        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+ .bss.udp_pcbs  0x000000003ffef7c0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(udp.o)
+                0x000000003ffef7c0                udp_pcbs
+ .bss.xid$0     0x000000003ffef7c4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
  .bss.dhcp_pcb_refcount
-                0x000000003ffef7b8        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
- *fill*         0x000000003ffef7b9        0x3 
- .bss.dhcp_pcb  0x000000003ffef7bc        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x000000003ffef7c8        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+ *fill*         0x000000003ffef7c9        0x3 
+ .bss.dhcp_pcb  0x000000003ffef7cc        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
  .bss.dhcp_rx_options_given
-                0x000000003ffef7c0        0xb C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
-                0x000000003ffef7c0                dhcp_rx_options_given
- *fill*         0x000000003ffef7cb        0x1 
+                0x000000003ffef7d0        0xb C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x000000003ffef7d0                dhcp_rx_options_given
+ *fill*         0x000000003ffef7db        0x1 
  .bss.dhcp_rx_options_val
-                0x000000003ffef7cc       0x2c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
-                0x000000003ffef7cc                dhcp_rx_options_val
+                0x000000003ffef7dc       0x2c C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x000000003ffef7dc                dhcp_rx_options_val
  .bss.etharp_cached_entry
-                0x000000003ffef7f8        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
- *fill*         0x000000003ffef7f9        0x3 
+                0x000000003ffef808        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
+ *fill*         0x000000003ffef809        0x3 
  .bss.arp_table
-                0x000000003ffef7fc       0xf0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
+                0x000000003ffef80c       0xf0 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
  .bss.allrouters
-                0x000000003ffef8ec        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
+                0x000000003ffef8fc        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
  .bss.allsystems
-                0x000000003ffef8f0        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
+                0x000000003ffef900        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
  .bss.napt_data
-                0x000000003ffef8f4        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
-                0x000000003ffef8f4                napt_data
+                0x000000003ffef904        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+                0x000000003ffef904                napt_data
  .bss.ip4_default_multicast_netif
-                0x000000003ffef8f8        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
- .bss.ip_id     0x000000003ffef8fc        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+                0x000000003ffef908        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+ .bss.ip_id     0x000000003ffef90c        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
  .bss.ip_reass_pbufcount
-                0x000000003ffef8fe        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
+                0x000000003ffef90e        0x2 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
  .bss.reassdatagrams
-                0x000000003ffef900        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
+                0x000000003ffef910        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
  .bss.sntp_retry_timeout
-                0x000000003ffef904        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x000000003ffef914        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_current_server
-                0x000000003ffef908        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x000000003ffef918        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_set_servers_from_dhcp
-                0x000000003ffef909        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- *fill*         0x000000003ffef90a        0x2 
+                0x000000003ffef919        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ *fill*         0x000000003ffef91a        0x2 
  .bss.sntp_servers
-                0x000000003ffef90c       0x24 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- .bss.sntp_pcb  0x000000003ffef930        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x000000003ffef91c       0x24 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ .bss.sntp_pcb  0x000000003ffef940        0x4 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_opmode
-                0x000000003ffef934        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- *fill*         0x000000003ffef935        0x3 
- .bss.ip_data   0x000000003ffef938       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip.o)
-                0x000000003ffef938                ip_data
+                0x000000003ffef944        0x1 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ *fill*         0x000000003ffef945        0x3 
+ .bss.ip_data   0x000000003ffef948       0x18 C:\Users\azna3\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/sdk/lib\liblwip2-536-feat.a(ip.o)
+                0x000000003ffef948                ip_data
  .bss._ZN5SListI7WiFiUDPE8_s_firstE
-                0x000000003ffef950        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiUdp.cpp.o)
-                0x000000003ffef950                _ZN5SListI7WiFiUDPE8_s_firstE
- *fill*         0x000000003ffef954        0x4 
+                0x000000003ffef960        0x4 C:\Users\azna3\AppData\Local\arduino\sketches\73D59E082136D15B0B730667F117D3BC\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiUdp.cpp.o)
+                0x000000003ffef960                _ZN5SListI7WiFiUDPE8_s_firstE
+ *fill*         0x000000003ffef964        0x4 
  .bss._ZGVZ18getNonOSDhcpServervE6server
-                0x000000003ffef958        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer-NonOS.cpp.o)
+                0x000000003ffef968        0x8 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer-NonOS.cpp.o)
  .bss._ZZ18getNonOSDhcpServervE6server
-                0x000000003ffef960       0x38 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer-NonOS.cpp.o)
+                0x000000003ffef970       0x38 C:\Users\azna3\AppData\Local\arduino\cores\1d2e6909c30d1af26f92d08bd46c12ad\core.a(LwipDhcpServer-NonOS.cpp.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
-                0x000000003ffef998                . = ALIGN (0x8)
-                0x000000003ffef998                _bss_end = ABSOLUTE (.)
-                0x000000003ffef998                _heap_start = ABSOLUTE (.)
+                0x000000003ffef9a8                . = ALIGN (0x8)
+                0x000000003ffef9a8                _bss_end = ABSOLUTE (.)
+                0x000000003ffef9a8                _heap_start = ABSOLUTE (.)
 
 .lit4           0x000000004010704c        0x0
                 0x000000004010704c                _lit4_start = ABSOLUTE (.)
